@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: #F5F5F5;
+    height: 70vh;
+}
+@media screen and (max-width:42.4375em) {
+    .container{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:29.1875em) {
+    .container{
+        display: flex;
+            flex-direction: column;
+            height: 80vh;
+    }
+}
+@media screen and (max-width:28.125em) {
+    .container {
+            height: 60vh; 
+            gap: 1rem;
+
+        }
+
+}
+
+.textbox-side{
+      display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     margin-left: 3rem;
+     margin-top: 50px;
+     width: 40vw;
+     height: 50vh;
+     gap: 2rem;   
+  
+}
+@media screen and (max-width:33.75em) {
+    .textbox-side {
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:29.1875em) {
+.textbox-side {
+    margin-top: 0px;
+    width: 90vw;
+    }
+}
+@media screen and (max-width:28.125em) {
+    .textbox-side{
+        gap: 1rem;
+        height: 40vh;
+    }
+    
+}
+.intro-textbox{
+    font-family: "Sansita", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+}
+@media screen and (max-width:55.5625em) {
+    .intro-textbox{
+    font-size: 25px;
+    }
+    
+}
+@media screen and (max-width:48.1875em) {
+    .intro-textbox {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:39.8125em) {
+    .intro-textbox {
+         font-size: 15px;
+        }
+    .intro-textbox {
+        letter-spacing: 0.5px;
+    }
+}
+
+.into-subtitle{
+    font-size: 15px;
+}
+@media screen and (max-width:39.8125em) {
+.into-subtitle {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.signinbtn,
+.loginbtn {
+    padding: 9px;
+    border: none;
+    background-color: #E5572E;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+@media screen and (max-width:42.6875em) {
+    .signinbtn,
+    .loginbtn{
+    font-size: 13px;
+    padding: 6px;
+        }
+}
+@media screen and (max-width:32.4375em) {
+    .signinbtn,
+        .loginbtn {
+            font-size: 11px;
+            padding: 5px;
+        }
+}
+.image-holder{
+    height: 60vh;
+}
+@media screen and (max-width:55.8125em) {
+    .image-holder {
+        height: 55vh;
+    }
+
+}
+@media screen and (max-width:51.5625em) {
+    .image-holder {
+            height: 53vh;
+        }
+    
+}
+@media screen and (max-width:48.1875em) {
+.image-holder {
+        height: 50vh;
+    }
+}
+@media screen and (max-width:39.8125em) {
+    .image-holder {
+            height: 40vh;
+        }
+}
+@media screen and (max-width:29.1875em) {
+.image-holder {
+        height: 30vh;
+    }
+}
+@media screen and (max-width:28.125em) {
+.image-holder {
+        height: 35vh;
+    }
+
+}
+
+.image-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 80%;
+}
+
+.extra-info p{
+    display: flex;
+    color: #E5572E;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5.8px;
+}
+@media screen and (max-width:32.4375em) {
+    .icon-container{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:28.125em) {
+.icon-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+.icons-holder{
+    height: 10vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+

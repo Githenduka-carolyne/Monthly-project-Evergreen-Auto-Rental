@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.about-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #E5572E;
+
+}
+@media screen and (max-width:21.25em) {
+    .about-heading{
+        margin-top: 60px;
+    }
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width:45.5em) {
+    .about-container {
+        flex-direction: column;
+    }
+}
+.textbox1-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-top: 50px;
+    width: 40vw;
+    height: 50vh;
+    gap: 2rem;
+}
+
+
+
+.textbox-details{
+    display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        letter-spacing: 0.5px;
+}
+.number{
+    text-transform: capitalize;
+    color: #E5572E;
+    font-family: "Sansita", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20px;
+}
+.numberdetail{
+    font-size: 15px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+}
+.numerical{
+    font-size: 15px;
+}
+.about-image-holder{
+    height: 80vh;
+}
+@media screen and (max-width:67.4375em) {
+    .about-image-holder {
+            height: 40vh;
+        }
+}
+.image-side1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:37.5em) {
+    .image-side1 {
+       display: none;
+    }
+}
+.cards-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 50px;
+}
+@media screen and (max-width:21.25em) {
+    .cards-holder {
+        margin-top: 110px;
+    }
+    
+}
+.card-icon-holder{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+}

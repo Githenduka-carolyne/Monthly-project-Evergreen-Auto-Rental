@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.About2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 3rem; */
+}
+@media screen and (max-width:45.5em) {
+    .About2-container{
+        flex-direction: column;
+    }
+}
+.main-heading{
+    display: grid;
+    place-content: center;
+    margin-top: 15px;
+}
+.about2img-holder{
+    height: 150px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.about2-textbox-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    gap: 1rem;
+}
+@media screen and (max-width:67.4375em) {
+    .about2-textbox-side{
+        height: 25vh;
+    }
+}
+@media screen and (max-width:48.75em) {
+    .about2-textbox-side {
+            height: 30vh;
+        }
+}
+@media screen and (max-width:45.5em) {
+    .about2-textbox-side {
+        width: 75vw;
+    }
+}
+@media screen and (max-width:21.25em) {
+    .about2-textbox-side{
+        margin-top: 30px;
+    }
+    
+}
+.about-heading{
+    display: grid;
+    place-content:center;
+}
+.heading{
+    font-size: 25px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #E5572E;
+}
+.heading1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5572E;
+}
+.about2-details{
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+

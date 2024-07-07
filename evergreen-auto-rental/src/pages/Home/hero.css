@@ -1,0 +1,61 @@
+ .herosection {
+     height: 60vh;
+     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/herophoto.png);
+     background-size: cover;
+     background-position: center;
+     display: grid;
+     place-content: center;
+ }
+
+ .hero-textbox {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 50vw;
+     height: 50vh;
+     gap: 2rem;
+     color: #fff;
+     line-height: 2rem;
+ }
+ @media screen and (max-width:67.4375em) {
+    .hero-textbox {
+        height: 30vh;
+         width: 60vw;
+     }
+ }
+ .hero-maintitle{
+    font-size: 40px;
+    text-transform: capitalize;
+ }
+ .hero-subtitle{
+    font-size: 20px;
+        text-transform: capitalize;
+ }
+ .button-holder{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+ }
+ .button{
+    padding: 9px;
+    border: none;
+    background-color: #E5572E;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 200px;
+        height: 200px;
+        font-size: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        color: black;
+}
